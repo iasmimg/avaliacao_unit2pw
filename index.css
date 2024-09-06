@@ -98,6 +98,18 @@ body {
     width: calc(33.33% - 20px);
 }
 
+.promocoes-destaque  > div:hover{
+    background-color: white;
+    box-shadow: 0px 0px 10px white;
+}
+.promocoes-secundarias > div:hover{
+    background-color: white;
+    box-shadow: 0px 0px 10px white;
+}
+.outros > div:hover{
+    background-color: white;
+    box-shadow: 0px 0px 10px #00366C;
+}
 
 /* Seção de Descontos */
 .descontos {
