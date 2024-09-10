@@ -10,6 +10,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+p{
+    margin-top: 20px;
+}
+
+a{
+    color: white;
+}
+
 
 body {
     font-family: Arial, sans-serif;
@@ -106,6 +114,9 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
     
 }
 .outros .promo-item{
@@ -127,20 +138,40 @@ body {
 
 /* Seção de Descontos */
 .descontos {
-    padding: 20px;
-    background-color: #eee;
-    text-align: center;
+display: flex;
+flex-direction: column;
+gap: 1.5rem;
+background-color:#f2f2f2;
+padding: 3rem 10rem;
+
 }
 
 .desconto-items {
     display: flex;
-    justify-content: center;
-    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
     margin-top: 20px;
+    gap: 1rem;
+
+    
 }
 
 .desconto-item img {
-    height: 50px;
+    
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
 }
 
 /* Rodapé */
@@ -156,6 +187,37 @@ body {
     flex-direction: column;
     align-items: center;
 }
+.footer-sobre {
+    display: flex;
+    gap: 1rem;
+    margin-top: 20px;
+  }
+
+.social-media{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.footer-rights {
+    padding-top: 20px;
+    border-top: 1px solid  #006dff;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.social-media button {
+    background-color: #103476;
+    border: none;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.social-media img {
+    height: 1.3rem;
+  }
+  
 
 .footer-content .social-media img {
     margin: 5px;
@@ -191,6 +253,7 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #2d549f;
+    margin-left: 5px;
   }
   
 
